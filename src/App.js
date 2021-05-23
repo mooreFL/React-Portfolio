@@ -1,15 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
-import { BrowserRouter as Router, Route } from 'react-router-dom'; 
+import { BrowserRouter as Router } from 'react-router-dom'; 
 import './App.css';
-import Header from "./components/Header"
+import Nav from "./components/Nav"
  
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <Nav />
         </div>
     </Router>
   );

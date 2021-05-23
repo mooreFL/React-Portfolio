@@ -1,0 +1,16 @@
+.container {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+
+.about {
+    padding: 20px;
+    color: white !important;
+    text-decoration: none;
+    list-style-type: none;
+}
