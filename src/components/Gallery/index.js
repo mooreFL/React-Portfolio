@@ -3,7 +3,7 @@ import "./style.css";
 import Carousel from "react-bootstrap/Carousel";
 import codeQuiz from "../../images/quizimg.png";
 import passWord from "../../images/passwordgeneratorimg.png";
-import weatherDash from "../../images/weatherdashboardimg.png";
+import weatherDash from "../../images/weather.png";
 import workDay from "../../images/schedulerimg.png";
 import progBudget from "../../images/budgettrackerimg.png";
 import andChill from "../../images/andchillimg.png"
