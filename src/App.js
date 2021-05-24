@@ -5,14 +5,16 @@ import './App.css';
 import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 import About from "./components/About"
+import Gallery from "./components/Gallery"
  
 function App() {
   return (
     <Router>
       <div className="App">
         <Nav />
-        <About />
-        <Footer />
+        {/* <About />
+        <Footer /> */}
+        <Gallery />
       </div>
     </Router>
   );
