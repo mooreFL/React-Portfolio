@@ -1,19 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./style.css";
 
-
-
+// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Footer() {
   return (
-    <Router>
-      <div>
-        <Header />
-        <Wrapper>
-          
-        </Wrapper>
-        <Footer />
-      </div>
-    </Router>
+    <footer>
+      <container>
+      <a href="https://www.linkedin.com/in/patrick-moore-4ba75b20b/" className="bi bi-linkedin">
+      <a href="https://github.com/mooreFL" className="bi bi-github"></a>
+      <a href="mailto:moorepr09@gmail.com" className="bi bi-envelope-fill"></a>
+      </a>
+      </container>
+    </footer>
   );
 }
 

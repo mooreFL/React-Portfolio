@@ -1,0 +1,28 @@
+container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi {
+    color: white;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+.bi:hover {
+    color:white;
+}
+
+.bi-github {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+
+
+
+
+
+

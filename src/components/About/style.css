@@ -1,0 +1,19 @@
+main {
+    padding-top: 8rem;
+}
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
