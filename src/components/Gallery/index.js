@@ -12,25 +12,25 @@ function Gallery() {
   return (
     <div>
       <Carousel>
-        <Carousel.Item interval={3000}>
+        <Carousel.Item>
           <img className="d-block w-100" src={codeQuiz} alt="Code Quiz" />
           <Carousel.Caption>
             <h3>Code Quiz</h3>
             <p>JavaScript coding quiz with timer and score keeper.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={3000}>
+        <Carousel.Item>
           <img
             className="d-block w-100"
             src={passWord}
             alt="Password Generator"
           />
           <Carousel.Caption>
-            <h3>Random Password Generator</h3>
-            <p>Generates random passwords within parameters set by the user.</p>
+            <h3>Password Generator</h3>
+            <p>Generates random passwords with user set parameters.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={3000}>
+        <Carousel.Item>
           <img
             className="d-block w-100"
             src={weatherDash}
@@ -43,18 +43,18 @@ function Gallery() {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={3000}>
+        <Carousel.Item>
           <img
             className="d-block w-100"
             src={workDay}
             alt="WorkDay Scheduler"
           />
           <Carousel.Caption>
-            <h3>Work Day Scheduler</h3>
-            <p>Dynamic hourly scheduler for 9-5 work day, hour box changes dependent on current time.</p>
+            <h3>Work-Day Scheduler</h3>
+            <p>Dynamic hourly scheduler for 9-5 work day.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={3000}>
+        <Carousel.Item>
           <img
             className="d-block w-100"
             src={progBudget}
@@ -65,7 +65,7 @@ function Gallery() {
             <p>Tracks a budget both on and offline.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={3000}>
+        <Carousel.Item>
           <img
             className="d-block w-100"
             src={andChill}
