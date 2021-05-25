@@ -1,22 +1,21 @@
 import React from "react";
 import "./style.css";
+import resume from "./updatedresume.pdf";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Nav() {
   return (
     <nav className="container">
-      <a class="about" href="/about">
+      <a className="about" href="/">
         About{" "}
       </a>
-      <a class="about" href="/work">
+      <a className="about" href="/work">
         Work{" "}
       </a>
-      <a class="about" href="/contact">
+      <a className="about" href="/contact">
         Contact{" "}
       </a>
-      <a class="about" href="./assets/updatedresume.pdf">
-        Resume{" "}
-      </a>
+      <a className="about" href={resume}>Resume</a>
     </nav>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Footer from "../Footer"
 
 function Contact() {
   return (
@@ -8,6 +9,7 @@ function Contact() {
         <p>
           Click the buttons below to contact me.
         </p>
+        <Footer />
       </div>
     </main>
   );

@@ -8,3 +8,28 @@ p {
     color: white;
     font-size: 20px;
 }
+
+button {
+    border: none;
+    border-radius: 5px !important;
+    background-color: white;
+    font-family: 'Jura', sans-serif !important;
+}
+
+#carousel {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 980px) {
+    #carousel {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #carousel {
+        width: 100%;
+    }
+}

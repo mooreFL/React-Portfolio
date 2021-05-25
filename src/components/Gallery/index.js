@@ -11,15 +11,16 @@ import andChill from "../../images/andchillimg.png"
 function Gallery() {
   return (
     <div>
-      <Carousel>
-        <Carousel.Item>
+      <Carousel id="carousel">
+        <Carousel.Item interval={3000}>
           <img className="d-block w-100" src={codeQuiz} alt="Code Quiz" />
           <Carousel.Caption>
             <h3>Code Quiz</h3>
             <p>JavaScript coding quiz with timer and score keeper.</p>
+            <button>View The Project</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src={passWord}
@@ -28,9 +29,10 @@ function Gallery() {
           <Carousel.Caption>
             <h3>Password Generator</h3>
             <p>Generates random passwords with user set parameters.</p>
+            <button>View The Project</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src={weatherDash}
@@ -41,9 +43,10 @@ function Gallery() {
             <p>
               Shows weather information for a user selected location.
             </p>
+            <button>View The Project</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src={workDay}
@@ -52,9 +55,10 @@ function Gallery() {
           <Carousel.Caption>
             <h3>Work-Day Scheduler</h3>
             <p>Dynamic hourly scheduler for 9-5 work day.</p>
+            <button>View The Project</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src={progBudget}
@@ -63,9 +67,10 @@ function Gallery() {
           <Carousel.Caption>
             <h3>Progressive Budget Tracker</h3>
             <p>Tracks a budget both on and offline.</p>
+            <button>View The Project</button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
             src={andChill}
@@ -74,6 +79,7 @@ function Gallery() {
           <Carousel.Caption>
             <h3>&Chill Dating App</h3>
             <p>Matches users according to movie preferences.</p>
+            <button>View The Project</button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
