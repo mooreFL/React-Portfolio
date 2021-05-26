@@ -9,7 +9,6 @@ function Contact() {
         <p>
           Click the buttons below to contact me.
         </p>
-        <Footer />
       </div>
     </main>
   );

@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 // Import the BrowserRouter, Route and Link components
+import { BrowserRouter as Router, Route } from 'react-router-dom'; 
 import './App.css';
 import Nav from "./components/Nav"
 import Footer from "./components/Footer"
@@ -8,16 +9,17 @@ import Gallery from "./components/Gallery"
 import Contact from "./components/Contact"
  
 function App() {
-    const pages = [About, Gallery, Contact]
-    const [page, setPage] = useState(pages[0])
   return (
-    
+    <Router>
       <div className="App" id="app">
-        <Nav setPage={setPage} pages={pages}/>
-        {page}
+        <Nav />
+        <Route exact path="/" component={About} />
+        <Route exact path="/Work" component={Gallery} />
+        <Route exact path="/Contact" component={Contact} />
+        
         <Footer /> 
       </div>
-    
+    </Router>
   );
 }
 
