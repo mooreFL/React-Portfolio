@@ -15,9 +15,9 @@ A portfolio that uses React to dynamically show my work, also has a resume link 
   * [Contact](#Contact)
   
   ## Screenshots
-  <img src="react-portfolio\src\images\WorkSS.PNG">Work Section:</img>
-  <img src="react-portfolio\src\images\ContactSS.PNG">Contact:</img>
-  <img src="react-portfolio\src\images\AboutSS.PNG">About:</img>
+  <img src="src\images\WorkSS.PNG">Work Section:</img>
+  <img src="src\images\ContactSS.PNG">Contact:</img>
+  <img src="src\images\AboutSS.PNG">About:</img>
 
 
   # Installation
