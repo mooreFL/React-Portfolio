@@ -1,24 +1,23 @@
 .container {
     margin: 1rem;
     display: flex;
-    justify-content: space-between !important;
+    justify-content: center;
+    text-align: center;
     font-family: 'Jura', sans-serif;
     font-size: 30px;
-    padding-top: 20px;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    /* width: 40% !important; */
 }
 
 .about {
-    padding: 2px;
+    padding: 5px;
     color: white;
-    text-decoration: none;
     list-style-type: none;
+    margin: 35px;
 }
 
 
 .about:hover {
+    text-decoration: none;
+    list-style: none;
     background-color: white;
     color: black;
     border-radius: .5rem; 

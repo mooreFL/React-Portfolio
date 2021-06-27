@@ -1,11 +1,13 @@
 main {
     padding-top: 8rem;
 }
-h1 {
+
+.sign {
     color: white;
     font-family: sans-serif;
     text-align: center;
     font-weight: bold;
+    font-size: 65px;
 }
 
 p {

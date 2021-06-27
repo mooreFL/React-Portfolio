@@ -5,11 +5,12 @@ import "./style.css";
 function Footer() {
   return (
     <footer>
-      <container>
-      <a href="https://www.linkedin.com/in/patrick-moore-4ba75b20b/" className="bi bi-linkedin">
-      <a href="https://github.com/mooreFL" className="bi bi-github"></a>
-      <a href="mailto:moorepr09@gmail.com" className="bi bi-envelope-fill"></a>
-      </a>
+    <container>
+    <a href="https://www.linkedin.com/in/patrick-moore-4ba75b20b/" className="bi bi-linkedin">
+    <a href="https://github.com/mooreFL" className="bi bi-github"></a>
+    <a href="mailto:moorepr09@gmail.com" className="bi bi-envelope-fill"></a>
+    </a>
+    <a id="emailAddress">moorepr09@gmail.com</a>
       </container>
     </footer>
   );

@@ -9,7 +9,7 @@ function About() {
           Hi! I'm Patrick Moore.
         </h1>
         <p>
-          I am currently attending the University of Central Florida full-stack developer boot camp.
+          Recent graduate of the University of Central Florida full-stack developer boot camp.
         </p>
       </div>
     </main>

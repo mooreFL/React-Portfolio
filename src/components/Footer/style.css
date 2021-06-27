@@ -20,7 +20,13 @@ container {
     padding-left: 3rem;
 }
 
-
+#emailAddress {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    margin: 10px;
+}
 
 
 
